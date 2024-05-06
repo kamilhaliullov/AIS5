@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efdf216-e403-45c9-ac89-2bd399c2df01">
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3efdf216-e403-45c9-ac89-2bd399c2df01">
   <producedTypes>
     <objectType typeId="59e7141a-1b28-402c-ac4d-b98a62e8f774" valueTypeId="d147b338-d3fa-4bac-97fe-a95da93c0c9b"/>
     <refType typeId="0e544479-8c5c-435e-b020-1a8d403ddf7a" valueTypeId="50500897-5bc6-4fef-bebd-7fadf8846fe0"/>
@@ -25,4 +25,22 @@
   <autonumbering>true</autonumbering>
   <postInPrivilegedMode>true</postInPrivilegedMode>
   <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="d56c6da3-8b00-461c-8c3a-2df828406a50">
+    <name>Производитель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Производитель</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Document>
